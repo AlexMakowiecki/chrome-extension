@@ -12,7 +12,7 @@ I used HTML, CSS, Javascript and a manifest.json with the information needed for
   - **function parameters** to send data inside of a function from outside of its scope. 
   - **template strings** to make complex strings, like ones with a lot of variables, in a more simple way. 
   - **localStorage** to store information that not will be lost when the page is reloaded. 
-    - `localStorage.setItem("varName", 'stringifiedVarValue' )` `localStorage.setItem("varName")` `localStorage.clear()`
+    - `localStorage.setItem("varName", 'stringifiedVarValue')` `localStorage.getItem("varName")` `localStorage.clear()`
   - **JSON object:** a stringified object used to store information. In this case, it's used for the manifest.json and for parsing objects into strings in JavaScript, such as the value passed to localStorage
 ## How you can use it
 You have to go to Chrome's "manage extensions" tab  and click the **Load unpacked** button, in the route you have to put the folder containing all of the files of this repository.
