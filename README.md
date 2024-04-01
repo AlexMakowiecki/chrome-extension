@@ -15,7 +15,7 @@ I used HTML, CSS, Javascript and a manifest.json with the information needed for
     - `localStorage.setItem("varName", 'stringifiedVarValue' )` `localStorage.setItem("varName")` `localStorage.clear()`
   - **JSON object:** a stringified object used to store information. In this case, it's used for the manifest.json and for parsing objects into strings in JavaScript, such as the value passed to localStorage
 ## How you can use it
-You have to go to [(chrome://extensions/)] and click the **Load unpacked** button, in the route you have to put the folder containing all of the files of this repository.
+You have to go to Chrome's "manage extensions" tab  and click the **Load unpacked** button, in the route you have to put the folder containing all of the files of this repository.
 ## About Scrimba
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
